@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MMAndrade.Estudos.DDD.Restaurante.Domain\MMAndrade.Estudos.DDD.Restaurante.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

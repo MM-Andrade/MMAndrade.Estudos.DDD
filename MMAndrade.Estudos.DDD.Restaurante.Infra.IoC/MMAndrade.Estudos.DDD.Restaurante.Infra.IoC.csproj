@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MMAndrade.Estudos.DDD.Restaurante.Application\MMAndrade.Estudos.DDD.Restaurante.Application.csproj" />
+    <ProjectReference Include="..\MMAndrade.Estudos.DDD.Restaurante.Infra.Data\MMAndrade.Estudos.DDD.Restaurante.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
